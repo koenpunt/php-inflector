@@ -6,7 +6,7 @@ PHP Inflector Library, ported from [Rails](https://github,com/rails/rails)
 
 ## Minimum Requirements
 
-* PHP 5.4+ (support for older versions is coming)
+* PHP 5.4+ (support for PHP 5.3 in [php-5.3](https://github.com/koenpunt/php-inflector/tree/php-5.3) branch)
 * PHP [Internationalization extension](http://www.php.net/manual/en/book.intl.php) (`php5-intl`)
 
 ## Installation
@@ -17,7 +17,7 @@ Create or update `composer.json`:
 ```json
 {
   "require": {
-    "koenpunt/php-inflector": "0.1.*"
+    "koenpunt/php-inflector": "1.0.*"
   }
 }
 ```
