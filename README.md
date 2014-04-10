@@ -1,4 +1,4 @@
-PHP Inflector [![Build Status](https://travis-ci.org/koenpunt/php-inflector.svg?branch=master)](https://travis-ci.org/koenpunt/php-inflector)
+PHP Inflector [![Build Status](https://travis-ci.org/koenpunt/php-inflector.svg?branch=php-5.3)](https://travis-ci.org/koenpunt/php-inflector)
 =============
 
 PHP Inflector Library, ported from [Rails](https://github,com/rails/rails)
