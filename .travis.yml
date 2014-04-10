@@ -1,0 +1,9 @@
+before_script:
+  - echo 'extension = "intl.so"' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+
+language: php
+php:
+  - 5.4
+  - 5.5
+
+script: phpunit -c phpunit.xml test/

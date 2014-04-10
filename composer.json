@@ -1,0 +1,22 @@
+{
+    "name": "koenpunt/php-inflector",
+    "description": "PHP Inflector, ported from Rails",
+    "type": "library",
+    "keywords": ["php", "inflector"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Koen Punt",
+            "email": "me@koen.pt"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpInflector\\": "lib/"
+        }
+    }
+}
