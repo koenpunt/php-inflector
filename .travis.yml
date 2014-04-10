@@ -1,6 +1,6 @@
 language: php
 install:
-  - apt-get install libicu-dev libicu48
+  - sudo apt-get install libicu-dev libicu48
   - printf "\n" | pecl install intl
   - composer install
 php:
