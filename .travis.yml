@@ -1,5 +1,7 @@
 language: php
-install: composer install
+install:
+  - pecl install intl
+  - composer install
 php:
   - 5.3
 
