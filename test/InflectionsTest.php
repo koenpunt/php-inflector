@@ -2,10 +2,6 @@
 
 use PhpInflector\Inflector\Inflections;
 
-class TransientInflections extends Inflections{
-	protected static $_instance = null;
-}
-
 class InflectionsTest extends PHPUnit_Framework_TestCase
 {
 	/**
@@ -19,7 +15,7 @@ class InflectionsTest extends PHPUnit_Framework_TestCase
 	 */
 	protected function setUp()
 	{
-		$this->object = new TransientInflections;
+		$this->object = new Inflections;
 	}
 
 	/**
@@ -36,8 +32,8 @@ class InflectionsTest extends PHPUnit_Framework_TestCase
 	 */
 	public function testInstance()
 	{
-		$this->assertInstanceOf('PhpInflector\Inflector\Inflections', TransientInflections::instance());
-		$this->assertSame(TransientInflections::instance(), TransientInflections::instance());
+		$this->assertInstanceOf('PhpInflector\Inflector\Inflections', Inflections::instance());
+		$this->assertSame(Inflections::instance(), Inflections::instance());
 	}
 
 	/**
