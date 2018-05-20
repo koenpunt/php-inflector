@@ -174,8 +174,8 @@ class Inflections{
 			$this->plural("/{$singular_char_downcase}(?i){$singular_word}$/", $plural_char_downcase . $plural_word);
 			$this->plural("/{$plural_char_upcase}(?i){$plural_word}$/", $plural_char_upcase . $plural_word);
 			$this->plural("/{$plural_char_downcase}(?i){$plural_word}$/", $plural_char_downcase . $plural_word);
-			$this->singular("/{$plural_char_upcase}(?i){$plural_word}$/", $singular_char_upcase + $singular_word);
-			$this->singular("/{$plural_char_downcase}(?i){$plural_word}$/", $singular_char_downcase + $singular_word);
+			$this->singular("/{$plural_char_upcase}(?i){$plural_word}$/", $singular_char_upcase . $singular_word);
+			$this->singular("/{$plural_char_downcase}(?i){$plural_word}$/", $singular_char_downcase . $singular_word);
 		}
 	}
 
